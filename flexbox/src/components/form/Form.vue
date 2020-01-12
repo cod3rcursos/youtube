@@ -100,7 +100,6 @@ export default {
     }
   },
   updated() {
-    console.log('updated')
     this.emitChange();
   },
   created() {
