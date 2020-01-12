@@ -2,9 +2,9 @@
   <div class="form">
     <div class="form-wrapper form-container">
       <FlexDirection v-model="flexDirection" />
-      <FlexWrap v-model="flexWrap" />
       <JustifyContent v-model="justifyContent" />
       <AlignItems v-model="alignItems" />
+      <FlexWrap v-model="flexWrap" />
       <AlignContent v-model="alignContent" />
     </div>
     <div class="form-wrapper form-item-1">
@@ -111,7 +111,7 @@ export default {
 <style>
 .form {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-around;
   padding: 20px 0px;
 }
 
