@@ -1,4 +1,9 @@
 .App {
     display: flex;
+    flex-direction: column;
+}
+
+.Cards {
+    display: flex;
     flex-wrap: wrap;
 }
