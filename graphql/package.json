@@ -14,7 +14,7 @@
     "express-graphql": "0.6.12",
     "graphql": "0.13.2",
     "graphql-tools": "2.24.0",
-    "knex": "0.14.6",
+    "knex": "2.4.0",
     "mysql": "2.15.0"
   }
 }
